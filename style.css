@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+
+.sudoku{
+    display: grid;
+    grid-template-columns: repeat(9,50px); /*9 fois 50 pixel*/
+}
+
+.sudoku>div{
+    margin-bottom: 7px;
+}
+
+input{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
